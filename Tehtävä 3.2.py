@@ -1,10 +1,12 @@
-age = int(input("anna ikäsi:"))
+luokka = input("Anna hyttiluokka (LUX, A, B, C): ")
 
-if age >= 65:
-    print("olet eläkeiässä")
-
-elif age >= 18:
-    print("olet työikäinen")
-
-elif age >= 7:
-    print("olet kouluikäinen")
+if luokka == "LUX":
+    print("LUX on parvekkeellinen hytti yläkannella.")
+elif luokka == "A":
+    print("A on ikkunallinen hytti autokannen yläpuolella.")
+elif luokka == "B":
+    print("B on ikkunaton hytti autokannen yläpuolella.")
+elif luokka == "C":
+    print("C on ikkunaton hytti autokannen alapuolella.")
+else:
+    print("Virheellinen hyttiluokka.")
