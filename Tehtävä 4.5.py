@@ -15,5 +15,5 @@ while yritykset < max_yritykset:
     else:
         print("Virheellinen käyttäjätunnus tai salasana.")
 
-if yritykset == max_yritykset and not (tunnus == oikeatunnus and salasana == oikeasalasana):
+if yritykset == max_yritykset and not (tunnus == oikeatunnus and salasana == oikea_salasana):
     print("Pääsy evätty")
